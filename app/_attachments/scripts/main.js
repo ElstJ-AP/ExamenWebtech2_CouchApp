@@ -60,7 +60,7 @@ function updateTodo(){
 	doc._rev = rev;
 	doc.ingavedatum = ingavedatum;
 	doc.einddatum = einddatum;
-	doc.prioriteit = parseInt(prioriteit);
+	doc.prioriteit = prioriteit;
 	doc.beschrijving = beschrijving;
 	doc.status = status;
 	var json = JSON.stringify(doc);
