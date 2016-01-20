@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My New CouchApp</title>
+    <title>Todo</title>
      <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
     <link rel="stylesheet" href="style/main.css" type="text/css">
   </head>
   <body>
     <div class='well'>
 		<div id='search'>
-			<input type='text' id='todo' placeholder='Id of Todo' />
+			<input type='text' size="30" id='todo' placeholder='Id of Todo' />
 			<button type='button' class='btn btn-success' onClick='searchTodo()'>Search</button>
 		</div>
-		<div id='content'></div>
+		<div id='edit'></div>
   </div>
 
   </body>
+  	<script src='scripts/jquery.js'></script>
+    <script src='scripts/main.js'></script>
 </html>
